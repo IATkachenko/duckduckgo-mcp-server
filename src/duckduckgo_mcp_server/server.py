@@ -210,8 +210,6 @@ mcp = FastMCP(
     name="ddg-search",
     host="0.0.0.0",
     port=80,
-    json_response=True,
-    debug=True,
 )
 searcher = DuckDuckGoSearcher()
 fetcher = WebContentFetcher()
