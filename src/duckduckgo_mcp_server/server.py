@@ -208,7 +208,6 @@ class WebContentFetcher:
 # Initialize FastMCP server
 mcp = FastMCP(
     name="ddg-search",
-    stateless_http=True,
     host="0.0.0.0",
     port=80,
     json_response=True,
