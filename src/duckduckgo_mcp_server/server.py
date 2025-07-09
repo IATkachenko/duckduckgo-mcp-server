@@ -249,7 +249,7 @@ async def fetch_content(url: str, ctx: Context) -> str:
 
 
 def main():
-    mcp.run()
+    mcp.run(transport="sse")
 
 
 if __name__ == "__main__":
